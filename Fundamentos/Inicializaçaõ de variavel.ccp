@@ -11,4 +11,4 @@ printf("a inicial do dog é: %c\n",Inicial_dog);
 printf("O nome é dog é: %s\n",nome_dog);
 printf("O peso do dog é: %0.3f kilos\n",peso);
 printf("A altura do dog é: %0.2f metros\n",altura); 
-} 
+}
