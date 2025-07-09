@@ -19,7 +19,7 @@ int main()
         printf("O numero maior é: %d.\n", num2);
     } 
     if (num1 == num2){
-        printf("Os números são iguais.\n");
+        printf("%d é igual a %d.\n", num1, num2);
     }
 
     return 0;
