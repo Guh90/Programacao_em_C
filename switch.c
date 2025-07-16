@@ -7,7 +7,7 @@ int main()
     printf("Opção 1 - for\n");
     printf("Opção 2 - while\n");
     printf("Opção 3 - do-while\n");
-    printf("Escolha uma linguagem de sua preferencia: ");
+    printf("Escolha um laço de sua preferencia: ");
     scanf("%d", &opcoes);
     
     switch(opcoes)
