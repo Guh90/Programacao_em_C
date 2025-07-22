@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 
+#include <stdio.h>
+#include <string.h>
+
 // Declaração da estrutura
 struct Veiculo
 {
@@ -10,7 +13,7 @@ float Valor;
 
 };
 int main() {
-//Declaração de um coordenador da struct Pessoa
+//Declaração de uma variável do tipo struct Veiculo
 
 struct Veiculo carro;
 
@@ -21,12 +24,14 @@ printf("Informe o modelo do veiculo\n ");
 fgets(carro.Modelo, sizeof(carro.Modelo), stdin);
 printf("Informe o ano do veiculo\n ");
 scanf("%d", &carro.Ano);
-printf ("Qual o valor do veiculo?\n");
+getchar(); // Limpa o buffer do teclado
+printf ("Qual o valor do veiculo?\n ");
 scanf("%f", &carro.Valor);
-printf("##Dados do Veículo##\n");
-printf("%s",&carro.Marca);
-printf("%s",&carro.modelo);
-printf("%d",&carro.ano);
-printf("%f",&carro.valor);
+getchar(); // Limpa o buffer do teclado
+printf("\n::Dados do Veículo::\n");
+printf("\n\tMarca: %s\n", carro.Marca);
+printf("\tModelo: %s\n", carro.Modelo);
+printf("\tAno: %d\n", carro.Ano);
+printf("\n\tValor: %.2f\n", carro.Valor);
 return 0;
 }
