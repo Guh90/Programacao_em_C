@@ -44,9 +44,9 @@ for(int cont=0;cont<2;cont++)
     for (int cont = 0; cont < 2; cont++)
     {
     printf("\n🐺:::Dados do Animal Cadastrados:::😸\n");
-    printf("Nome: %s", pets[cont].nome);
-    printf("Espécie: %s", pets[cont].especie);
-    printf("Raça: %s", pets[cont].raca);
+    printf("Nome: %s\n", pets[cont].nome);
+    printf("Espécie: %s\n", pets[cont].especie);
+    printf("Raça: %s\n", pets[cont].raca);
     printf("Idade: %d anos\n", pets[cont].idade);
     printf("Peso: %.2f kg\n", pets[cont].peso);
     }
